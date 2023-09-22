@@ -13,7 +13,6 @@ const TabItem = props => {
     <li >
       <button
         type="button"
-        
         onClick={onClickTabItem}
       >
         {displayText}
