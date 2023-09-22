@@ -340,7 +340,7 @@ class App extends Component {
                 ))}
               </ul>
 
-              <ul className="project-list-container">
+              <ul>
                 {filteredProjects.map(each => (
                   <ImagesDisplayList
                     key={each.id}
